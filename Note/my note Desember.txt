@@ -1,0 +1,103 @@
+1/12/22
+2/12/22
+backup database
+skejuler database dwh yoe 
+brodcast wa sent perhari
+kirim data ke bang aji untuk status wr
+
+ID Mapping
+309764
+MID BRI 1999208937
+TID BRI 10363063
+
+MID BNI 000100215901342
+TID BNI 15134235
+
+ID MAPPING
+309765
+MID BRI 1999208937
+TID BRI 10363063
+
+MID BNI 000100215901342
+TID BNI 15134235
+
+old M0000001203 RAJA RASA MBL
+new Y0000001430 RAJA RASA MBL
+
+kalo sukses yang lama hapus
+kalo gagal yang baru hapus
+
+5/12/22
+edc reability mati
+
+6/12/22
+edc reability masih mati
+
+mau nambah region mti ecomerce
+
+admin all (ac,de,cek)
+hoshiko06
+hoshiko06
+
+admin.app
+
+JO BNI PART 10 06122022
+
+UPDATE asset_mapping SET note = 'PAMERAN' WHERE idMapping IN ('313464', '313465', '313466', '313467', '313468', '313469', '313470', '313471', '313472', '313474', '313475', '313476', '313477', '313478', '313479', '313480', '313481', '313482', '313483')
+
+UPDATE asset_mapping SET tid ='74433024', city='Asahan (Kab)' WHERE idMapping IN('313827');
+UPDATE asset_mapping SET tid ='74433129',city='Batam (Kota)',WHERE idMapping IN('313696');
+UPDATE asset_mapping SET tid ='72167331', tidreplace='73125093' WHERE idMapping IN('19551');
+
+12/12/22
+[08.34, 12/12/2022] Mba Yasmin Mti: ada ruangan kosong gak di hari ini jam 3 - 5
+[08.35, 12/12/2022] Mba Yasmin Mti: dan besok jam 2-4
+
+bri dan mandiri apprv bank himbara nonlhf
+
+
+case id yang vendornya berubah,
+tetapi di komplitin sama vendornya maka tidak akan berubah di aplikasinya karna perbedaan status antara dwh dan yoe
+
+status category non lhf yang close apprv ada 3 merchnt yang status wrnya beelum muncul
+
+13/12/22
+
+Issue J010 --> total 35 Merchant
+1. ada 22 Merchant terbit MID TID dan terdaftar di merchant info, namun di screen WR tidak ada --> Mohon Solusinya ?
+
+2. ada 13 merchant belum ada di MAAS  --> Upload kembali by MAAS
+
+Berikut data merchant issue No 1
+Y0000002589	71118959950	74433420	TB SUKSES JAYA 		RANDY IMANUEL SANDY KARUBUY 	ADA
+71119071992	74434552	TOKO KARYA KREASI.MBL
+71119071899	74434551	TOKO PETRA.MBL
+71118916040	74432979	TOKO QUEEN FURNITURE
+71118915796	74432976	TOKO PAPUA DISTRO.MBL
+71118915045	74432969	JIHAN CELL.MBL
+71118910535	74432924	TOKO MAMA PIPIT DB MR
+71118910442	74432923	TOKO SYAKILAH DB MR
+71118909779	74432916	KENDARI CELL DB MR
+71118909214	74432911	PT. FAJAR TERUS BERSINAR
+71118909121	74432910	AS COFE.MBL
+71118909028	74432909	NUSANTARA.MBL
+71118908970	74432908	STEAK HOUSE DAN YOSIN
+71118908877	74432907	ISTANA NASI GORENG.MBL
+71118908784	74432906	CHINES DAN DIMSUM.MBL
+71118908691	74432905	PUJASERA.MBL
+71118906043	74432878	TOKO DEWANTA COLLECTION
+71118905985	74432877	TOKO AZMI ELEKTRIK.MBL
+71118905892	74432876	TOKO ADIL 2.MBL
+71118905799	74432875	NABILA PRATAMA TRAVEL
+71118905327	74432871	TOKO LIDYA JAYA. MBL
+71118905141	74432869	WARUNG MAKAN MADALLE. MBL
+
+bantu heksa cek nama merchant ini tarik apakah ada region code sales code sama nama owner nya yah
+
+takeot tiket 2832
+
+27/12/22
+menyesuaikan fitur cicilan 
+
+ruang meeting hari Selasa 3 Jan 23 jam 10:00 - 12:00 dan 14:00 - 16:00 di ruang Sumatera or Kalimantan
+

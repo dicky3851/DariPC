@@ -1,0 +1,497 @@
+1. penambahan report bank existing
+view sla bank aaprv
+view report merchant regist
+
+creat table V_REPORT_BANK_EXISTING_SLA
+aplikasi sequence number
+nama merchant
+Ado
+sales representatif nya
+
+tambahan untuk new existing V_REPORT_BANK_EXISTING
+nama bank
+no tiket
+nama merch
+state
+
+no rek acc no
+wner 
+Acquistion Branch 
+Location Branch 
+
+2297150592 Mekar Sari Inganta
+2299250656 Febby Afrian
+2299250669 Deby Mutia
+de anlis ke chekes
+chker ke analis
+
+1. ketika di submit/return tiketnya urutan mdr nya berubah
+2. saat di prod valuenya kosong atau hilang, kemungkinan saat processing ketika di save
+3. Apply Sequence No berbeda dengan Doc, ketika upload doc barengan jadi ke tuker documentnya, sedang di lakukan mapping datanya
+4. report  bank existing akan naik sore ini
+
+
+pickup dlu baru di save di de
+cheker tidak perlussave karna hanya view
+
+tr asset 
+minta tolong untuk untuk data asset edc minta di tarik data all yang asset tagnya kosong,
+untuk di tabrakin datanya dan di melengkapi field yang masih kosong
+
+new 
+stage qam analyst dll
+
+
+373 sesuai
+475 -> 473
+482 sesuai
+311 sesuai
+457 sesuai
+
+besok kalimantan jam 10 
+kalimantan papua rabu cancel
+jumat cancel semua
+
+rabu jam 9 kalimantan
+besok kalimantan jam 10 12
+
+amelinda
+
+ 00100
+ 00098
+ 00102
+
+nama : Nu'man Rayadi Manaf
+email : rayadi.manaf@btn.co.id
+no. hp : 08122010874
+
+Userlogin : rayadi.manaf
+Password : mti123
+
+visa master sama fitur hanya debit credit aja
+
+mdr ga ada masal
+return 
+
+341
+487
+342
+482
+457
+497
+487
+482
+497
+457
+341
+487
+
+kenapa si di aplikasi ini
+Q kenapa mdrnya hilang, di state pending apprv
+A kejadian pas proses edit merchnt yang berbarengan membuat koneksi db tdk sesuai
+tiket tiket lama masih ada kosong akan di monitor tiket tiket baru
+
+Q tiket sudah di perbaiki tapi di submit ke analyst itu jadi kosong lagi
+A masih di analyst mtx, sepertinya ada proses yang ngedelete si mdr
+kerna di form merchent, belum ada query yang menjaga mdr
+
+Q fiturnya tidak masuk ke mdr
+A di bantu dari belakang(database)
+
+Y0000000613 
+Y0000000755
+Y0000000737
+Y0000000416
+Y0000000489
+Y0000000442
+
+Ruang Meeting Sumatra: 
+Ruang Meeting papua: 
+Ruang Meeting kalimantan: 
+
+
+INC-MTX-13102022-01162:	Ubah status tiket dan Rubah nama di dokumen yang tdk sesuai
+REQ-MTX-21102022-05045:	Khusus member bank btn,generate tambahan 1 row untuk debit - private - off us
+INC-MTX-25102022-01178:	MID tidak masuk ke YOE
+INC-MTX-25102022-01179:	1. tab phone ver tidak muncul 2. Delete member bank tidak bisa
+INC-MTX-25102022-01180:	MDR di submit hilang
+
+404 prime creta 1500 na
+405 SE 
+
+code yang di update :
+Uploadmaping
+excelstv
+excelsbta
+excelsba
+excelrtm
+excelremapping
+excelow2
+excelow
+excelmapping
+memberbank
+memberbankinfo
+datadetailsendback
+datadetailsendbackasset
+datadetailschedule
+datadetailremapping
+datadetailready
+datadetailpendingvendor
+datadetailpending
+datadetailclose
+datadetailcancel
+datadetailall
+datadetail
+
+Y0000000431 done
+Y0000000604 done
+Y0000000761 done
+Y0000000773 done
+Y0000000761 done
+Y0000000774 done
+Y0000000770 done
+Y0000000774 done
+
+Y0000000777 
+Y0000000448
+Y0000000466
+Y0000000738
+Y0000000629
+Y0000000668
+
+1. POSTING_METHOD - tidak terisi (MASUK) 
+EDC Settlement-Reguler (belum masuk)
+recurring (belum masuk)
+
+2. MERHCANT_ADMIN_FEE - Radio button tidak terpilih (MASUK)
+ Val = Y(Charge)/N(Wive) (Done)
+
+3. BUSINESS_HOURS_CLOSE & BUSINESS_HOURS_OPEN tidak terisi 
+
+4. radio button field MERHCANT_ADMIN_FEE tidak terisi (MASUK)
+ Val = Y(Charge)/N(Wive)
+
+5. PAYMENT_REMARK_CODE_COMBO = Kosong   (MASUK)
+ Val = Isi Dengan Nama Type Nya Jangan Code (Done)
+
+07-11-2022
+
+Kode : 2283150618
+Name : KARISMA WARDHANA
+User : 2283150618
+Ado : Surabaya
+Region : 8
+Area : Surabaya
+Hp :+62 878-5346-0161
+
+Kode : 2291150613
+Name : CATUR KRISTIAN SAPUTRA
+User : 2291150613
+Ado : Surabaya
+Region : 8
+Area : Surabaya
+Hp : +62 813-3190-9901
+
+Kode : 2291250614
+Name : ELYSABET PUTRI MARIA
+User : 2291250614
+Ado : Surabaya
+Region : 8
+Area : Surabaya
+Hp : +62 851-5733-7525
+
+Kode : 2291250652
+Name : SITI SUMIYATI
+User : 2291250652
+Ado : Surabaya
+Region : 8
+Area : Surabaya
+Hp :+62 852-5895-5696
+
+Kode : 2280150648
+Name : DENNY SUPRIYANTO
+User : 2280150648
+Ado : Surabaya
+Region : 8
+Area : Surabaya
+Hp :+62 812-5293-7041
+
+71090010824
+
+09/11/2022
+
+New Akuisisi By Status Pemasangan (AFT) 
+New Akuisisi By Status WR (AFT) 
+New Acquisition SLA - Status Pemasangan
+New Akuisisi By Status Pengajuan (BEF) 
+
+Klasifikasi-Counter-THERMAL-REG3
+Klasifikasi-Counter-REPLACE-REG3
+Klasifikasi-Counter-VISIT-REG3
+Region 3 Status ALL Case ID ESCALATION 2022
+
+meeting siang rabu 
+report edc BO
+1. show dasboard yokke
+2. show aplikasi devyokke 
+Berikut beberapa point dari meeting dengan ECO siang ini mas @MTI Mas Ikhsan dan pak @MTI Pak Enda.. Maaf tadi izin left meeting karena ada pra meeting dengan MSI🙏
+
+1. Dashboard monitoring EDC BOC (Business Operation Centre) yg akan dijadikan tampilan di masing-masing region
+
+2. Monitoring yg dibutuhkan :
+- Berapa EDC yg rusak (tidak bisa digunakan untuk transaksi)
+- Berapa EDC yg aktif
+- Berapa EDC yg bertransaksi
+- Berapa EDC yg tidak bertransksi
+
+3. Reporting 
+- Report stock asset
+- Report merchant yg bertransaksi (seatlement report) dapat di customize untuk Bank Mandiri Only dan di breakdown per Region atau Kanwil (untuk hal ini perlu adanya Development disisi MTI)
+
+3. Request Development dari sisi product
+- User akses dibedakan menjadi 2, yaitu :
+1. User akses yang menampilkan view halaman Dashboard saja (untuk keperluan menampilkan dashboard di layar Monitor TV)
+2. User akses yang dapat menampilkan semua halaman (Untuk keperluan import data, melihat report dan akses lainnya)
+- Dashboard di customize menjadi Only Bank Mandiri & di Grouping by Region
+- Breakdown transaksi by Region/Kanwil
+- User Session login di grouping by Region/Kanwil (setiap user mempunyai izin akses ke halaman dashboard dan report sesuai Region/kanwil user tsb.)
+Sekian catatan tambahannya, terimakasih🙏🏻
+
+10/11/2022
+
+case id completed vendor
+thermal primavista
+tiket req booking rom
+
+
+0000000351
+Y0000000593
+0000000384
+Y0000000579
+Y0000000411
+Y0000000758
+Y0000000865
+
+mita
+
+- Segment : Member Bank (blanks)
+- MERCHANT_BOOTH_STATUS Others (blanks)
+- Business Environment : LAINNYA (blanks)
+mas @irfan mas @ibal mau tanya ke-3 poin ini kenapa ga masuk ketika diupload, padahal pada saat testing sebelumnya sudah berhasil. apakah ada perubahan untuk formatnya?
+
+pak enda, berikut hasil tes yang saya tes dengan mas @dicky setelah melakukan perubahan template ditemukan ada data yang masih belum masuk
+
+ini saya dan mas wal sedang melakukan upload dari data ptr namun masih menemukan kendala
+karna templatenya berbeda dengan yang di lakukan testing kemarin. tapi sedang disesuaikan untuk templatenya pak
+
+14/11/2022
+inc
+menu admin bank HARUSNYA MENJADUMI MANDAtory KETIKA TIOD MID BELUM DI INPUT
+ketika udah si submit .. menu pickup di buat disable
+2. Ketika tiket sudah close,button di pickup harusnya button pickup menjadi di sa
+
+STATUS CATEGORY NON LHF
+
+bikin user admin bni 
+tambah menu sla future appr mdr ke mas ibal
+exel kirim kalo udah
+
+yb admin sama ky emil
+
+jumat jam 9 di kalimantan atau jawa 
+
+16/11/2022
+
+meeting edc no trx
+flow edc no trx
+minta di tambahin parameter setiap member bank,
+tambahin anchor
+tampilan retensi terkoneksi ke dalam edc no trx
+dashboard masing masing my retensi
+
+di masukin ke dalem portal untuk yang edc no trxnya
+
+-penambahan pamarameter setiap memberbank
+-penambahan parameter acnhor
+-tampilan retensi terkoneksi ke dalam edc no trx
+-membuat dashboard Retensi masing masing MY
+-edc no trx kalo bisa di masukan ke dalam portal himbara yoe 
+
+17/22/2022
+unsur viewer
+
+ricky nelson
+Muhaiminah
+chandra.purnama
+
+SMART SERVICES RAMAYANA CILEUNGSI
+SMART SERVICES RUKO GOLDEN ROAD
+SMART SERVICE CIMANGGU  SPORT CLUB
+
+edc no trx bikin pilihan dropdown di tampilan sales 
+
+21/11/2022
+742
+745
+749
+776
+830
+861
+
+22/11/2022
+template sesuai yang di share di grup untuk upload massal
+
+*SRW *
+
+1.
+Email : sulis.setyaningsih@bni.co.id
+Nama : Sulis Setyaningsih
+No HP : 087772774989
+
+Userlogin : sulis.setyaningsih
+password : bni123
+
+2.
+Email : hermina.ninawati@bni.co.id
+Nama : hermina ninawati purba
+No hp : 0811851499
+
+Userlogin : hermina.ninawati
+password : bni123
+
+ATW
+
+1.
+Email : ahmad.muzaqy@bni.co.id
+Nama : Ahmad Muzaqy
+No Hp : 081282644093
+
+Userlogin : ahmad.muzaqy
+password : bni123
+
+2.
+Email : ardhi.suhendar@bni.co.id
+Nama : Ardhi Martian Suhendar
+No Hp : 08568733233
+	
+Userlogin : ardhi.suhendar
+password : bni123
+
+ ATW
+Nama : Nia trikusuma
+Email  : Nia.ningrum@bni.co.id
+No Telp : 08561464464
+
+Nama :muhammad dimas prawiro
+Email: muhammad.prawiro@bni.co.id
+No tlp : 08987191992
+
+SRW 
+Nama : Darma Tumewa S
+email : Darma.Tumewa@bni.co.id
+No telp : +62 812-8654-2277
+
+Nama : H S Bregas Triatmo P
+Email : haryo.putro@bni.co.id
+No Telp : 081281716059
+
+Nama : Nuriatu Maryam
+Email : Nuriatu.Maryam@bni.co.id
+No Telp : +62 813-1920-9090
+
+Userlogin :Nia.ningrum
+Userlogin :muhammad.prawiro
+Userlogin :Darma.Tumewa
+Userlogin :haryo.putro
+Userlogin :Nuriatu.Maryam
+
+23/11/2022
+reject semua tapi statenya close apprv
+Y0000000544
+Y0000000608
+Y0000000887
+Y0000000906
+Y0000000943
+
+total merchant 213
+
+member bank dari data piloting
+
+bikin status merchanct dan status bank relate
+dari status tiket dan status bank
+
+24/11/2022
+user mb yang view aja biar bisa report, report bank
+
+Y0000001075
+Y0000001076
+Y0000001077
+bsk jgn bingung yah untuk tiket ini hasil copyan yang td 
+karena ganti hari kang faldi minta di dorong ulang 
+ini sudah di copy nunggu konfirmasi pembuatan folder 24 di sftp
+
+Team ATW : Admin
+Nama : Ida Aryani
+Email : ida.aryani@bni.co.id
+No tlp : 08567090730
+Userlogin : ida.aryani
+password : bni123
+
+Team SRW :
+SRW ITU APPROVAL
+Nama : ayu rizky sahara
+Email : ayu.putri92@bni.co.id 
+No tlp : 081380344121
+
+Userlogin : ayu.putri92
+password : bni123
+
+25/11/22
+febrianmenhar delete user
+
+PM|Y0000801190 |Y0000001190 |CAFE IMMANUEL MBL|YAY. PEKABARAN PM| Ye000601209| Y0000001209 |ALIM TEXTILE DB MR|JL. TAMAN ASRI PM|Y0000001200|Y0000001200 | TOKO SUSU TOBAL MBL | 31 . BARU PEREME (PM|Y0000801193 |Y0000801193 |KIDDYCUTS SENAYAN CITY |PT KIDDYCUI PM|Y0000001208 |Y0000001208 |MEMBOEMI MBL|KP PABUARAN DESA / KE PM|0000001206|Y0000001206 | KEDAT KOPT SINAU MBL|JL KELAPA HIJ (PM|Y0000001207 | Y0800001207 |ATAS SAHAJA MBL| JL RAYA CIREUNDEU PM|0000001196 | Y0000001196|MILLIE COFFEE MBL|BINTARO UTAMA 3
+PM| Y000.001204 | 6000001204 | TOK® EMAS H.MURDANT MBL|PLAZA BARU PM|0880801213|Y0801213 |SO LONG SANTE MBL | RUKO SOUTH GOLDF!
+PM| 0000601202|Y00001202|TB JAYA MANGALA MBL| JL RAYA BUARAI PM|0000001194|0000001194 | BROWHAUS PIK|JL. PANTAT INDAH KAPUK PM| Y0000001210|Y000001210|78 BIKE CAFE MBL|RUKO SLIK TOWN AVE PM|Y0000001192 | Y0000801192 |HEADQUARTERS SENCY|PT FANTASI CIPTA PM|Y0000001191|Y000801191 | MONSIEUR SPOON PI|PT CHAMP RESTO IN PM| Y0000801211 | Y0680801211 | RASYID PRINT MBL|MALL POINS SQUARE PM|Y@800001198|Y00001198 |DIA OPTIK SABAR SUBUR CIK|LT. RAYA PM| V0000001199 |Y.000001199 |MEKAR JAYA MAKMUR MBL |JL. KH AHMAD DI PM| Y6000001291 | Ye.00001201 |NIE ACEH BANG NASIR MBL|JL. PAHLAWAI PM| V0000001203 | 0000001203 | RAJA RASA MBL|DL RANCO INDAH DALAM A PM|0000801205 | Y0000001205 [NDF BIKES MBLIJL KH HASYIM ASHARI NO PM | Y0090001195|Ye000001195|STRIP PIK|JL. PANTAI INDAH KAPUK BOU PM|Y0000001212|Y0001212 |NGOEPI MBL|DL KEUANGAN RAYA NO. 15 R PM|0000001197 |Y0000001197 | RANIES KITCHEN MBL |JL. JAGAKARSA NO PM|Y0000001286 | Y0000001286 |MORULA TVF YOGYAKARTA | JL. RING ROAD PM|Y0800801285 |Y000001285 |NORTHAQUATIC CENTER MBL |AL AZHAR KELI PM|Y0000001282|Y00001282 |MORULA MEDIKA SEJAHTERA B|JL. TEGALS/ PM|Y6000001283 | Y0000801283 | MORULA TVF JAKARTA|3L.
+TEUKU CIK DITI
+PM|Y0800001284 | Y0006601284 | NEW PRIMAGAMA PONDOK CABE | JL. PONDOK C PM|0000001281/Y0000001281 /MORULA
+
+				14.12	14.21
+1190	d	9.59		1190	d
+1209	d	9.59		1191	d
+1200	d	9.59		1192	d
+1193	d	9.59		1193	d
+1208	d	9.59		1194	d
+1206	d	9.59		1195	d
+1207	d	9.59		1196	d
+1196	d	9.59		1197	d
+1204	d	9.59		1198	d
+1213	d	9.59		1199	d
+1202	d	9.59		1200	d
+1194	d	9.59		1201	d
+1210	d	9.59		1202	d
+1192	d	9.59		1203	d
+1191	d	9.59		1204	d
+1211	d	9.59		1205	d
+1198	d	9.59		1206	d
+1199	d	9.59		1207	d
+1201	d	9.59		1208	d
+1203	d	9.59		1209	d
+1205	d	9.59		1210	d
+1195	d	9.59		1211	d
+1212	d	9.59		1212	d
+1197	d	9.59		1213	d
+1286	d	9.59		1281	d
+1285	d	9.59		1282	d
+1282	d	9.59		1283	d
+1283	d	9.59		1284	d
+1284	d	9.59		1285	d
+1281	d	9.59		1286	d
+1209	d	9.59			
+
+30/11/22
+1342 d upload doc
+1343 d upload doc
+1344 d upload doc
+1345 d upload doc
+1346 d upload doc
+1347 d upload doc

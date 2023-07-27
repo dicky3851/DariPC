@@ -1,0 +1,861 @@
+HERJB2BYDHN
+huawei b311 fd0a3
+
+MID 
+
+Y0000014959
+Y0000014972
+Y0000014975
+
+bni kodepos masih belum sesuai di aplikasi yoe
+approval state dan date req di rubah
+
+1526 - pending approval -> BRI dan BTN
+1527 - pending approval -> BRI dan BTN
+
+1526 - BRI Reject 3 bank approve
+1527 - Approvve 4 Bank
+
+Task List
+1. Input sesuai Role (DONE)
+   - Jika dia User BNI Hanya Bisa megisi MID TID BNI dan tidak
+     bisa menggunakan Form BRI (DONE)
+   - Jika dia User BRI Hanya Bisa mengisi MID TID BRI dan tidak
+     bisa menggunakan Form BNI (DONE)
+   - Perapihan Tampilan All Data (DONE)
+   - Perapihan Datadetailall. (DONE)
+   - Penghapusan Menu UPLOAD Excel Completed pada Menu Complete (DONE)
+   - Perbaikan Menu Yang Dobel pada saat akun Admin (DONE)
+   - Penambahan Kolom MID Dan TID Di All data dan perubahan (DONE)
+   - Parameter Pencarian menjadi MID or TID or Merchant (DONE)
+   - Export exel di all data (DONE)
+
+2. Alur pada Bucket List Untuk User (Belum)
+3. UploadDT Dan UploadBy sudah ada tetapi Querynya tapi belum Berhasil
+4. Fungsi Save MID Dan TID BNI & BRI (Belum)
+5. Penambahan UploadDT ,SLA, (Belum)+
+
+22 februari 2023
+
+NON LHF
+Y0000001535 (MIG=Y, MID=Y)-> MY-DOC REGISTRATION -> MP-DATA ENTRY -> MP-APPLICATION CHECK -> MY-APPLICATION APPROVAL -> CLOSE APPROVED
+
+Y0000001536 (MIG=Y, MID=N)-> MY-DOC REGISTRATION -> MP-DATA ENTRY -> MP-APPLICATION CHECK-> MY-APPLICATION APPROVAL -> admin bank -> waiting for sign -> CLOSE APPROVED
+
+Y0000001537 (MIG=N, MID=N)-> MY-DOC REGISTRATION -> QAM -> MA-Merchant Analyst -> MP-DATA ENTRY -> MP-Application Check -> Pending Approval -> analsyt bank -> apprv Bank -> admin bank -> waiting for sign 
+-> CLOSE APPROVED
+
+Reguler 
+Y0000001529 (MIG=Y, MID=Y) : DOC->DE->CHECKER->CLOSE APPROVAL
+Y0000001530 (MIG=Y, MID=N) : DOC->QAM->MERCHANT ANALYS->DE->CHECKER->ANALYS BANK->APP BNI->ADMIN BANK-> waiting for sign->CLLOSE APPROVAL
+Y0000001531 (MIG=N, MID=N) : DOC->DE->CHECKER->ADMIN BNI-> waiting for sign->CLOSE APPROVAL
+
+(24-02-2023)
+
+BNI
+Nama : Prawestri
+Nik : 3302105907940001
+No hp : 085647742882
+Email : prawestrinur75@gmail.com
+
+BRI
+Nama : Farahnaz Sabrina
+NIK : 3216064606000009
+NO. HP : 081290561868
+Email : farahnazsabrinaa@gmail.com
+
+MANDIRI
+3201130803910003
+Ganes S. Prayoga
+Ganessyahban@gmail.com
+08568761188
+
+BTN
+3271011207910008
+Muharram Nur Ikhsan
+muharram.nur.ikhsan@gmail.com
+08561290485
+
+1538
+1539
+1540
+1543
+1542
+1544
+1546
+
+2 r btn
+3 btn bri
+4 bri bni btn
+
+setau saya SRW apprval, kalo ATW admin pak
+
+Team SRW :
+Nama : Fitri Maria
+Email : fitri.maria@bni.co.id
+No tlp : 085697712235
+
+Team ATW :
+Nama : Chandra Ribut
+Email : chandra.wibowo@bni.co.id
+No tlp : 0895417086546
+
+Userlogin : chandra.wibowo
+password : bni123
+
+Userlogin : fitri.maria
+password : bni123
+
+Retail
+Anchor
+Strategic
+
+Data yang dibutuhkan :
+Nama : Sugeng Hariyanto
+Email : sugeng.hariyanto@bni.co.id
+No HP : 08113429886
+Unit Kerja : SRW
+	
+Userlogin : sugeng.hariyanto
+password : bni123
+
+Nama : Didiet Sukarno
+Email : didiet.sukarno@bni.co.id
+No HP : 081703306868
+Unit Kerja : ATW
+
+Data yang dibutuhkan :
+Nama : Windy Fitriyah Hidayati
+Email : windy.hidayati@bni.co.id
+No HP : 082118707046
+Unit Kerja : ATW
+
+Userlogin : windy.hidayati
+password : bni123
+
+Userlogin : didiet.sukarno
+password : bni123
+
+996914
+592876
+
+
+1.type : non project ketika di sendback bni masuk ke bri
+2.type : project ketika di sendback ke bri masuk ke bni 
+
+MID BRI : 1999249031
+TID BRI : 10433281
+
+MID BRI : 1999236620
+TID BRI : 10416563
+
+MID BNI : 000100202900715
+TID BNI : 02071502
+
+1. file di buat mandatory non case id pic no hp
+2. remaks hanya ada 2 remaks agent dan alasan tdk trx
+3. hapus status call
+4. keseterdiaan edc
+
+Nama : Aditia Arifani 
+Email: aditia.arifani@bni.co.id 
+No HP: 08563170005 
+Unit kerja : SRW 
+Terima kasih 
+
+Userlogin : aditia.arifani
+password : bni123+
+
+tiket clansing
+tiket incident
+
+
+naikin aplikasi outbound yang di repalce :
+1. uploadoubound
+2. distribute
+3. reportdialyoutbound
+4. datadetail
+5. caseinfo+
+
+Attemp 1
+
+kondisi edc lain lain
+1. Nama : Sendi Yuda Negara
+Email : sendi.negara@bni.co.id
+No HP : 081802021946
+Unit Kerja : SRW 
+Not Found
+
+
+2. Nama : Kristianto
+Email : kristianto43342@bni.co.id
+No HP : 08113346465
+Unit Kerja : SRW
+
+3. Nama :  Syita Inriyanti
+Email : syita.inriyanti@bni.co.id
+No HP : 081912345460
+Unit Kerja : SRW
+
+4. Nama : Dede Irawan Sukma
+Email : dede.sukma@gmail.com
+No HP : 082119384454
+Unit Kerja : SRW
+
+5. Nama : Rudi Rachmadi
+Email : Rudi.Rachmadi@bni.co.id
+No HP : 085794986491
+Unit Kerja : SRW
+
+6. Nama : Diana Mei Rimenda
+Email : diana.rimenda@bni.co.id
+No HP : 08172388846
+Unit Kerja : SRW
+
+Userlogin : sendi.negara
+password : bni123
+
+Userlogin : kristianto43342
+password : bni123
+	
+Userlogin : syita.inriyanti
+password : bni123
+
+Userlogin : dede.sukma
+password : bni123
+
+Userlogin : rudi.rachmadi
+password : bni123
+
+Userlogin : diana.rimenda
+password : bni123
+
+- On-site Meeting Otomasi Hiyokke & Pengembangan kapasitas HiYokke :
+Jumat 10 Maret 2023, Jam 3 - 4 PM
+- On-Site Meeting Pelaksanaan Training :
+Jumat 10 Maret 2023, Jam 4- 5 PM
+- On-Site Meeting Mekanisme Weekly SQ :
+Senin 13 Maret 2023, Jam 4 -5 PM
+
+[09.15, 9/3/2023] Mba Yasmin Mti: yang senin jam  4 - 5
+[14.24, 9/3/2023] Mba Yasmin Mti: mas dick
+[14.24, 9/3/2023] Mba Yasmin Mti: mau tanya donk
+[14.24, 9/3/2023] Mba Yasmin Mti: ruang papua di tanggal 15 - 16 sudah ada yang book blm ?
+
+4690
+29089
+
+dari isian case id
+View BNI
+user : view.bni
+pass : bni123
+
+View Mandiri
+user : view.bmri
+pass : bmri123
+
+View BRI
+user : view.bri
+pass : bri123
+
+View BTN
+user : view.btn
+pass : btn123
+
+View Danamon
+user : view.danamon
+pass : danamon123
+
+View Astrapay 
+user : view.astrapay
+pass : astrapay123
+
+bdp simponi slip gaji terakhir
+bpjs
+
+SELECT FROM MTI_MGR.TBMCTEMPULOADPROFILE
+
+SELECT FROM MTI_MGR.TBMCTEMPULOADPROFILE
+WHERE
+AND TO_CHAR(DATA_INP_DTTM,'YYYYMMDD') = :proc_date 
+AND SEQ_BATCH=:seq_batch
+
+Nama     : Muhammad Ibnu Fajar < >
+Email Address  : ibnu.fajar@yokke.co.id
+No HP   : 6281511493942
+Role   : Viewer
+
+Userlogin : kristianto43342
+password : bni123
+
+user : ibnu.fajar
+pass : mti123
+
+Nama : Emier Rusli
+Alamat email: emier.rusli@bni.co.id
+Bagian: Manager/Pengelola SRW
+
+Nama : Meldyasti
+Alamat email: meldyasti.randha@bni.co.id
+Bagian: AMGR Local chainstore
+
+Nama : Hardinas
+Alamat email: hardinas46@gmail.com
+Bagian: SPV usage kredit
+
+.*Y0000042448.*\r?\n
+
+nama : Fajar Wibowo, NIP : 2388130763, Email : fajar.wibowo@yokke.co.id
+userlogin :fajar.wibowo
+password :mti123
+
+Nama: Tectona Galih Pundhung Radiktya
+NIP: 2391130764
+Email: tectona.galih@yokke.co.id
+userlogin : tectona.galih
+password : mti123
+
+nama: Apatya Wiraperdana Sholeh
+email : Apatya.sholeh@yokke.co.id
+unit : HR & GA
+userlogin : apatya.sholeh
+password : mti123
+
+1. upload -> blm terkunjungi
+2. begitu upload masuk ke masing masing vendor
+3. kalo sts terkunjungi ga bisa di edit
+5. hilang dri buket vendor
+3. rules user , posko , vendor , admin
+
+BANK BRI-KC Sleman
+
+user Posko
+- Upload
+- belum ter
+- terkunjungi
+- all data
+
+vendor
+- belum terkunjungi
+
+admin 
+semua bedanya sama posko bisa atur user login
+
+
+Dear All,Sesuai dengan informasi yang dikirim melalui e-mail sebelumnya
+berikut hasil percobaan login dengan email tersebut dengan mengikuti arahan tersebut namun belum berhasil masuk 
+Hormat saya,
+M.Dicky Oktariano
+
+	
+
+Y0000042173 -> Y0000042448
+Y0000042174 -> Y0000042449
+Y0000042147 -> 
+
+
+Y0000041223
+Y0000038519
+Y0000040157
+Y0000040159
+Y0000040659
+Y0000018681
+Y0000040660
+Y0000039758
+Y0000040962
+Y0000037500
+Y0000000899
+Y0000000866
+Y0000040585
+
+Office 365
+dicky.oktariano@yokke.co.id
+Password: Yokke0765!@#
+
+User Wifi Yokke_Mobile: dicky.oktariano
+Password Yokke_Mobile Wifi:  Yokke0765!@#
+
+
+narik data btn yang di reject sales volume 30 jt
+
+Belum Terkunjungi
+Baik
+Kondisi EDC Baik
+diki
+0888989
+2
+bca
+oke
+
+1. Share 2 bank (50-50) 
+jika salah 1 bank reject maka otomatis menjadi 100 
+
+2. Share 3 bank jika ada mandiri, maka mandiri mendapat 34, dan bank lain mendapat 33 
+jika tanpa mandiri maka yang mendapat 34 adalah bank random (34-33-33 random) 
+
+3. Share 4 bank (25-25-25-25) 
+jika salah satu bank reject maka kembali ke point 2 
+jika 2 bank reject maka kembali ke point 1
+
+
+Nama : Rizki Barokah
+Email: rizki.barokah@bni.co.id
+Hp: 085222684433
+Atw/srw : ATW
+
+Nama : Dani Agustian Sumarlin
+Email: dani.sumarlin@bni.co.id
+Hp: +62 878-2523-7913
+Atw/srw : ATW
+
+Dear Team MTI 
+mohon bantuan tambahan user Aplikasi YOE untuk unit SRW W12
+1. nama : elsha afriliana
+    Email : elsha.afriliana@bni.co.id
+    No Hp : 082220049069
+
+2. Nama : H.S Bregas T.P (H S Bregas Triatmo P)
+    Email : Haryo.putro@bni.co.id
+    No Hp : 081281716059
+
+Terimakasih.
+
+didiet.sukarno
+
+parameter penarikan data case id
+
+primavista ada kebutuhan semua status dari 3 bulan terakhir, tapi masih setuju hanya dalam 3 bulan 
+biasanya narik hanya 1 bulan
+
+Y0000001606
+TEST HIMBARA KENDAL
+
+1. ketika merchant analys terbuka untuk phone verivikasi bisa melakukan perubahan untuk modul merchant 
+di field contact person name 
+2. bisa edit di mcc visa dan mcc master
+
+3. bisa melakukan upload dokumen di nomber 65 yaitu others (Bukan mandatory)
+4. modul others bisa melakukan perubahan sales limit
+
+012780006634823
+
+Req User baru YOE
+nama : widia sarassari
+no hp: 081230052313
+email : widia.sarassari@bni.co.id
+unit : srw
+wilayah : W06
+
+Req Penghapusan User
+nama : Aditia Arifani
+no hp: 08563170005
+email : aditia.arifani@bni.co.id 
+unit :srw
+wilayah : 06
+userlogin : widia.sarassari
+password : bni123
+
+
+req penamabahan review tiket yang pernah masuk ke bucket analyst
+
+di tabel analyst di tambah 
+- create date
+- approval set
+
+tr regis 
+- merchant chek date
+- merchant analyst date
+- approval set
+- analyst name
+
+Y0000001660 tester himbara bni dan bri
+
+2 tiket non lhf ter takeout
+Y0000009897
+Y0000021618
+
+d7c3519a-ecfe-4999-98a6-5e873d275c71
+496f96d7-0504-46cf-818e-5f053ab4132e
+
+
+sandy.lelengboto MB-Member Bank Approval BNI Location done
+tommy
+
+Y0000001661 panduan privy
+
+statenya close 
+filter dup
+
+ALERT_MID_TID_USER
+Admin BRI,Admin BNI,Achmad Fuad,Ati Herawati,Helmi Muhammad Shadiq,Eka Fransiska Tambunan,Erwin Kurniawan Dharma,Eko Sulistyono,Adi Purba Gunawan,Aldila Riza Pratiwi,Aldio Dwitama,Dede Artanto Nugraha,harry suseno,irfan afandi,krinasari,Muhammad Haris,Neni Krisnawati,Gema Dwi Slamet,Nugraha Romadhoni,William andhika p,Ferdy Ferdiansyah,Dwi Aji Apriana,Ari Haryanto,Asmita Ratih,Tiana Elma,Achmad Syaiful Ramadhan,Debbi Nurhuda,Nur dayat,Helmi Muhammad Shadiq,Susilo Darmawan,
+
+bni 4 tiket 15.15
+
+	
+Y0000001662 TESTER TIKET (analsyt)
+Y0000001663 TESTER TIKET 2 (analsyt)
+
+narik berdasrkan kanwil
+aconbranch 
+
+stasusnnya masih belum bisa di bedain
+
+req alurnya masih belum , harus sesuai dengan kanwil, appval bank masih berbeda
+
+tarik bri pending 
+status apprval bri hapus bank, terus add lagi
+
+jabarin merchant name
+mappingin MID 
+
+btn cek scoringnya
+
+tiket di tst bni
+Y0000001689 
+Y0000001691 
+Y0000001693 
+Y0000001695 
+Y0000001696
+
+
+
+Y0000001690
+
+sr retensi berdasarkan region
+minta di buatin region 1 sampe 12 , sama kaya case id
+untuk filter retensi sesuai region
+
+14 sampe 16
+
+Y0000018300 risk mandiri
+Y0000003290 analsyt 
+
+
+2.57 99 merch JO BNI PART 117 25052023 - BATCH 01
+
+page 5 9 tiket merch JO BNI PART 117 25052023 - BATCH 02
+80 tiket 3.10
+49 tiket JO BNI PART 116 B 
+121 (JO BNI PART 118 jam 17.41) 16.20
+
+JO BNI PART 118
+JO BNI PART 116 B
+
+05630402
+
+Y0000041990 10.18
+Y0000040910 10.21
+Y0000040592 10.23
+Y0000037778 10:25
+
+meeting
+rizmia tabrakin data antara yoe dan maas
+data non lhf di pastiin masuk maas yang sudah close apprv
+
+untuk yang 19 ga ada di maas, termasuk tiket yang kemarin di save ulang ada yang mid memberbank nya exist jadi ngga bisa masuk maas, pararel di cek lagi untuk tiket tiket yang belum masuk lagi pak
+
+Y0000000666 Udah ada single bni,MID BNI 000100201006652 , harusnya bisa himbara karna mandri apprv
+Y0000000535 harusnya bisa masuk mandiri doank (Berhasil masuk maas)
+Y0000000544 harusnya bisa masuk BNI doank (Berhasil masuk maas)
+Y0000000721 ada 2 bank BNI MANDIRI , TID BNI EXIST 10106004
+Y0000037778 Udah ada single bni 000100203003660 (harusnya 2 bank mandiri bni, gagal masuk maas karna mid bni exist)
+Y0000047680 MID BNI kosong,harusnya masuk 2 bank BNI dan mandiri
+naik jam 8.31
+08591106505797
+
+Andielisav Nova
+landielisav31332@bni.co.id
+W02
+ATW
+user login : landielisav
+password : bni123
+
+Ibnu Sholeh
+ibnu.soleh@bni.co.id
+W02
+ATW
+user login : ibnu.soleh
+password : bni123
+
+Agus Wahyu Saputra
+Agussaputra@bni.co.id
+W02
+ATW
+user login : agussaputra
+password : bni123
+
+Noviko Asril Putra
+noviko.asril@bni.co.id
+W02
+ATW
+user login : noviko.asril
+password : bni123
+
+Anda Mardiansyah
+anda.mardiansyah@bni.co.id
+W02
+ATW
+user login : anda.mardiansyah
+password : bni123
+
+landielisav			f76a5972-92ac-4ecb-b9f3-a61738f34a23
+ibnu.soleh			4c7eb216-6554-4ef3-8416-560cc9ff2ebe
+noviko.asril		e034e108-e95f-4e56-8370-ee46ffc69edf
+anda.mardiansyah	8622d75c-3ae8-45d5-b741-b08b30bdef41
+agussaputra			f04af4e0-a1a8-4295-af79-2b4c0fe06cc2
+
+000100214003415	14341524	COFFEE SHOP PONDOK HIJAU  	Y0000001170
+000100214004182	14418223	BEAUTYLAND SKIN CLINIC MB 	X0000001172
+000100214004256	14425635	KRISNA SHOES MBL 			X0000001173
+000100214004331	14433135	MANDIRI RESTO MBL 			Y0000001174
+000100214004463	14446323	NEW OSD MBL 				X0000001175
+000100214004472	14447223	RESTO WAROENG SHISHA MBL 	X0000001176
+000100214004487	14448735	GROOMY PETSHOP KEDAUNG MB 	X0000001177
+000100214004502	14450235	MOJANG PASUNDAN MBL 		Y0000001179
+naik di jam 12.17
+
+	
+Muhammad Reza Karista done
+petrus josef done
+Julkarnain Buchari done
+Muh.Supriadi	
+emier rusli
+Andi Ira tenrikawa	
+Hardinas
+Meldyasti
+
+Y0000044105 - SARTIKA BARKA - QAM
+Y0000040425 - GAHARU COFFEE SHOP YOGYAKARTA - QAM
+Y0000043834 - BLOOM FASHION SHOP - Kuta
+Y0000000881 - INDRA CELLULAR - QAM
+
+1. mana merchant di maintenace harusnya default
+2. menu add dan save di afr masih ada
+3. belum input tid di dgo lolos
+4. keetika save tiket maintenace tidak bisa di action
+
+Y0000040672 mid bni exist mbl, harusnya bisa 2 sama mandiri
+
+	
+ign.mortina
+
+nama vendor jadin mahapay
+apus gss konven
+
+bulan kunjungan
+
+1. Rtl 2 di tambahin mb mid, untuk di ekstrak yang bisa di tarik yang udah di isi mid nya dan ada triger terlebih dahulu (Medium Code) OK
+2. Field extrak di sesuain format CL tapi kosong gapapa klo isinya ga ada (Medium Code) OK
+3. Rtl 1 dan rtl 2 usernya beda, kalo bisa menunya di pisah (Minor) OK
+	user RTL 1 = rtl1.bni
+	Password = bni123
+4. di region code Di isi w01 sampe w18  w13 tdk perlu (Medium) OK
+5. Mercahnt state (Minor) OK
+    1 aktiv
+    8 inaktiv
+6. Nama Branch di tambahin wilayah dan filed wilayah Atau masuk dari region code di isi tadi (Minor Code) OK
+7. Memberbank mid bisa di cari (Medium Code) OK
+8. Penambahan kolom whitelist Y atau N di dalem edit memberbank (Minor Code) OK
+9. Extract sesuai status yang approved date nya today date OK
+10. Upload massal dokumen
+
+Penambahan user ATW:
+Nama : Deddie Rompas
+Email : deddie.rompas@bni.co.id
+No HP : 08114300622
+Unit Kerja : ATW	
+3c9042ef-8072-4211-8378-addf114e36e6
+kbumn jam 3 5
+
+req tiket 
+
+80c6dfc7-05c4-4879-b700-9d38f4e923c7 	
+admin.w05
+
+
+
+Y0000045491 retrun che analyst
+
+Y0000020094
+Y0000035608
+Y0000047473
+
+debrian maunya lebih datail dari segi arsitektur
+edc no transaksi blasz wa 
+
+ssl 
+akses sudah tidak boleh di prod, remote sudah tidak bisa , dilakukan lwat zoom
+
+12.15
+1.  0000000371
+2. Y0000000730
+3. Y0000000431
+4. Y0000000613
+5.  0000000373
+6. Y0000000458
+7. Y0000000760
+8. Y0000042764 salah nih
+53. Tiket BNI
+
+Nama: nurfitra
+Email: nurfitra@bni.co.id
+Wilayah:W07
+Unit :SRW
+No Hp: 087771277272
+Request: Baru
+userlogin : nurfitra
+password : bni123
+	
+Nama: Muh Bianda Sujana
+Email: muh.bianda.sujana@bni.co.id
+No Hp: 08114155353
+Wilayah:W07
+Unit : SRW
+Request: Baru
+userlogin : muh.bianda.sujana
+password : bni123
+
+Nama: Muh Reza Karista
+user: muhammad.Karista
+No Hp: 081-342-242-556
+Wilayah:W07
+Unit : SRW
+Request: Hapus
+
+Ali komarudin
+agha malik
+i made alit muliawan
+
+nama : Ahmad Nugraha
+npp : P035601
+email bni : ahmad35601@bni.co.id 
+No hp : 081392154815
+AFR
+
+user ado di tambahin roles nya aja
+status yang udah done ga bisa di edit / disable
+
+MCA0008	0	None
+MCA0008	1	Telkomsel
+MCA0008	2	Indosat
+MCA0008	3	Three
+MCA0008	4	XL
+MCA0008	5	Axis
+
+MCA0008	0	MCA00080
+MCA0008	1	MCA00081
+MCA0008	2	MCA00082
+MCA0008	3	MCA00083
+MCA0008	4	MCA00084
+MCA0008	5	MCA00085
+
+MCA0009	01	DIAL UP
+MCA0009	02	GPRS
+MCA0009	03	WIFI
+MCA0009	04	IP LAN
+MCA0009	05	OTHER
+MCA0009	06	GPRS Mobile
+MCA0009	07	GPRS Countertop
+MCA0009	08	DU + GPRS Ctop
+
+21618
+39476
+
+alur tanggal 23 feb
+Y0000001535 (MIG=Y, MID=Y)-> MY-DOC REGISTRATION -> MP-DATA ENTRY -> MP-APPLICATION CHECK -> MY-APPLICATION APPROVAL -> CLOSE APPROVED
+
+Y0000001536 (MIG=Y, MID=N)-> MY-DOC REGISTRATION -> MP-DATA ENTRY -> MP-APPLICATION CHECK-> MY-APPLICATION APPROVAL -> admin bank -> waiting for sign -> CLOSE APPROVED
+
+Y0000001537 (MIG=N, MID=N)-> MY-DOC REGISTRATION -> QAM -> MA-Merchant Analyst -> MP-DATA ENTRY -> MP-Application Check (Submit Registrasi) -> Pending Approval -> analsyt bank -> apprv Bank -> admin bank -> waiting for sign 
+-> CLOSE APPROVED
+
+Rumus Username
+=TEXTJOIN(",",TRUE,F8:F923)
+
+ini januari 2023 sd Juni 2023... sama approval yang diminta mas taufik periode sama mas januari 2023 sd Juni 2023
+Y0000000828
+Y0000000506
+
+Y0000000519, Y0000000525, Y0000000620, Y0000000671, Y0000000834, Y0000003588, Y0000026215, Y0000043611, Y0000046478, Y0000046885, Y0000047599
+
+1. Req SR
+2. Blacklist
+3. Disable field SR
+4. 
+
+nama: Lestari Pertiwi
+email : lestari.pertiwi@yokke.co.id
+unit : Risk
+
+nama: Purnama Dwi Christanto 
+email : purnama.christanto@yokke.co.id
+unit : Risk
+
+decription , mcc visa - mcc master card , doc foto (sesuai panduan himbara) di buat mandatory : bikin default di file exel aja karna di maas juga ga mandatory
+
+zip code di sesuaikan dengan yang di maas terbaru, kalo ada yang beda di yoe di sesuaikan lagi
+
+project one to many mau pake alur yang mana mig mid nya : pake yang Y Y
+
+MID TID baru di tulis 0 ada di kosongkan : skip kosong aja ga usah di input
+
+start end date ittu diisi apa ya ,, di tab memberbank : di isi tanggal input dan jangan sampe salah input
+
+source off merchant isinya harus kaya gimana : mandiri Y BTN N
+
+jam 4 pagi sampe jam 11 malem
+12002945546
+
+tarik data zipcode dan mcc visa bussines type dari yoe
+
+di menu region tbrs bisnis mti utama yang masuk hanya eskalasi
+menu done sama not done ke keluarin di masing masing user region, berdasarkan data region nya
+bikin menu all untuk view only
+untuk upload di tambah source nya cashback
+
+jam 2 - 3 
+pak bayu SQ
+
+lembur tanggal 6 , jam 7 sampe jam 00.00
+lembur tanggal 7 , jam 5 sampe jam 00.00
+
+datanya di ambil untuk tiket yang mana berdasar sys merch, lalu di ambil untuk tabel mdr ..  di isi valuenya terus upload lagi
+kalo mau di seting dari kodingan lumayan panjang effort nya dan impact nya bisa ga kebentuk lagi kaya yang pernah kejadian sebelumnya
+
+Y0000009897 TID KEMBAR
+
+Level MY ga bisa field eskalasi, hanya ada di menunya SPV
+deal produck mau di lakukan eskalasi di menu spv
+mandatory untuk upload foto retensi
+program di retensi ada bugs, muncul alertnya sama
+
+di form retensi pilihan program, jika di klik maka langsung mandatory, kalo di hilang tetep jadi mandatory
+
+1. Bringin done
+2. Indopay  done
+3. Ingenico done
+4. Jadin done 
+5. GSS Konven  done
+6. Mahapay done
+7. Primavista done
+8. Integra done
+9. Telkom done
+10. Visionet done
+
+Description :
+
+1. Pada menu Region, TBRS dan Bisnis MTI yang masuk hanya tiket Eskalasi 
+2. Menu done sama not done ke turun kan di masing masing user Region, berdasarkan data region nya 
+3. Dibikin menu all untuk view only
+
+Hasil Stres tes 
+1. jumlah tiket 200 dan 200 document
+2. upload di lakukan di link dev YOE pada pukul 08.35 selesai pada 08.
+3. jumlah data yang masuk ke dalam aplikasi 200 tiket beserta document
+
+region : 6 11 12
+omnity present jam 2 sampe 4
+
+berikut terlampir file untuk CR, mohon agar segera di kirimkan penawaran harganya 
+001999270391
+10462227

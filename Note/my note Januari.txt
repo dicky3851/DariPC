@@ -1,0 +1,276 @@
+TBMCOUTBLCTNT_MST External
+TBMCMERCOMVRYFCTNT_MST Internal
+
+3 januari 2023
+penambahan grup sales yokkebiz
+
+phone no kosong tiket
+Y0000004971
+Y0000000645
+
+jadin
+
+[Y0000005428]
+
+16/01/2023
+FRETSLEY GUSTI NOYA
+REGULER
+CLOSE REJECT
+	
+EVI MUSA
+REGULER
+PENDING APPROVAL
+
+MURZADY FIRMANSYAH H
+REGULER
+CLOSE APPROVED
+
+dwihartati
+meizyi.novriyani
+taufan.saputro
+nugroho.ramdhani
+
+
+tes upload 
+1. Y0000001510 (MIG=Y, MID=Y) Draft-> Docreg -> DATA ENTRY -> MP-APPLICATION CHECK -> Close Approved
+2. Y0000001511 (MIG=Y, MID=N) Draft-> Docreg -> DATA ENTRY -> MP-APPLICATION CHECK -> MY-APPLICATION APPROVAL-> analyst bank-> bank approval bni -> admin bank bni-> Close Approved
+3. Y0000001512 (MIG=N, MID=N) Draft-> Docreg -> QAM -> MERCHANT ANALYST -> DATA ENTRY -> MP-APPLICATION CHECK -> MY-APPLICATION APPROVAL -> analyst bank-> bank approval bni -> admin bank bni-> Close Approved
+
+
+masih ada file yang ga ke isi di dev dari hasil upload, di prod aman
+
+.*71001772425.*\r?\n
+
+17/01/23
+
+setau saya SRW apprval, kalo ATW admin pak
+
+ATW 01
+Nama TEUKU MUHAMMAD YOVAN
+Npp P026933
+Email teuku.muhammad@bni.co.id
+No hp 082162871271
+
+SRW 01
+Nama ASTRINA SARI LUBIS
+Npp P032206
+Email Astrina.lubis@bni.co.id
+No hp 081262098889
+	
+user login : teuku.muhammad
+password : bni123
+user login : astrina.lubis
+password : bni123
+
+943453
+
+tiket Y0000001511 (MIG=Y, MID=N) ada alur yang belum sesuai, alur saat di tes Draft-> Docreg -> DATA ENTRY -> MP-APPLICATION CHECK -> analyst bank-> bank approval bni  -> admin bank bni-> Close Approved
+
+harusnya alurnya 
+doc reg-entry-checker-admin bank-close approved
+
+1. Y0000001510 (MIG=Y, MID=Y) = aman
+3. Y0000001512 (MIG=N, MID=N) = aman
+
+943855
+
+18/01/23
+Y0000001519 (MIG=Y, MID=N) Draft-> Docreg -> DATA ENTRY -> MP-APPLICATION CHECK -> admin bank bni-> Close Approved
+
+Tab Other
+No. Of Employee - Default 0
+Merchant Space - Default 0
+Payment Unit - Default By Batch Number
+QR Payment - Default 01-Payment by File H+n
+Payment Remark Code - Default 01 - (MID/TID/Authbatch/MerchantName)
+Payment Method - Default Mercant Account
+Merchant Admin Fee - Default Waive
+NPG Info - Default Check: Artajasa, Rintis, JPN
+
+Tab Member Bank
+Bank BNI
+Aggregation Unit: Visa Master JCB
+Off Us Trans Rate sesuai jumlah bank
+Owner: di Screen Window sudah Capital semua (TESTING), di Screen Aplikasi namanya campur (TESTINg)
+
+Belum dapat Save jika ada Mandatory Field kosong = done
+
+User Doc Registration belum terbuka Menu Terminal, Feature, MDR
+Edit Feature, Tambah Installment, QR Domestic, di MDR tidak ter-update
+Approval BNI belum masuk ke menu user Bank New app.bni
+Default pilihan "Approve" dan "Submit" belum
+
+Y0000000588
+Y0000000588
+Y0000000664 done
+Y0000000695
+
+190123
+
+Berikut link meeting finalisasi mengenai CR
+Hari : Kamis, 19 Januari 2023
+Jam : 11.00 WIB 
+Link Meeting : https://meet.google.com/wjy-cqho-qur
+
+Terima kasih🙏
+
+348680
+348681
+348682
+348683
+348684
+348685
+348686
+348687
+348688
+348689
+348690
+348691
+
+20/01/23
+
+minta tolong yang pending approval
+di break per member bank per kantor wilayan/region/KC ya...
+sama minta tolong yang di pending approval sudah masuk ke bucket user ID wilayah/KC.region ya
+
+932014
+
+setau saya SRW apprval, kalo ATW admin pak
+
+SRW 01:
+Nama NURLAYALI
+Npp P022991
+Email nurlayali22991@bni.co.id
+No hp 081370696666
+NURLAYALI BNI
+
+user login : nurlayali.bni
+password : bni123
+
+Nama POLTAK PANJAITAN
+Npp P024936
+Email Poltak24936@bni.co.id
+No hp 0811602998
+
+user login : poltak.pajaitan
+password : bni123
+
+Nama FITRI
+Npp P049837
+Email Fitri49837@bni.co.id
+No hp 085210956342
+	
+user login : fitri.bni
+password : bni123
+
+Nama HAIYUM SIDQI
+Npp P52827
+Email Haiyum.Sidqi@bni.co.id
+No hp 0811615141
+
+user login : haiyum.sidqi
+password : bni123
+
+PERMOHONAN PENAMBAHAN USER MTI W01:
+ATW 01:
+Nama Belman Ricardo Panggabean
+NPP P054440
+Email belman.ricardo@bni.co.id
+hp 085297748777
+
+user login : belman.ricardo
+password : bni123
+
+25 januari
+
+tarik data status merchant permasing masing bank
+
+Nama : Yudha Kriswana
+Email : yudha.kriswana@bni.co.id
+No HP: 0811485587
+Unit Kerja: Pengelola SRW W16
+user login : druce.chresty
+password : bni123
+
+Nama : Druce Kapsian
+Email : druce.chresty@bni.co.id
+No HP: 085294988524
+Unit Kerja: ATW W16 (Analis) 
+user login : yudha.kriswana
+password : bni123
+
+User Admin
+Nama : Linda Winawan
+Email : linda.winawan@bni.co.id
+No HP : 085953752389
+user login : linda.winawan
+password : bni123
+
+Nama : Eko Suryo Prayogo
+Email :  eko.suryo@bni.co.id
+No HP : 08113131020
+
+Nama : I Gde Sastra Andhika
+Email : gede.andhika@bni.co.id
+No HP : 087860821509
+Unit Kerja : SRW
+	
+user login : gede.andhika
+password : bni123
+
+1.Nama : petrus josef
+Email :  petrus.josef@bni.co.id
+No HP : 0811422646
+Unit Kerja : ATW 07
+user login : petrus.josef
+password : bni123
+
+2.Nama : Julkarnain Buchari
+Email : julkarnain.buchari@bni.co.id
+No. HP : 082291612142
+unit Kerja : ATW 07 
+user login : julkarnain.buchari
+
+3. Nama : Muh Reza Karista
+Email : Muhammad.Karista@bni.co.id
+No Hp : 081-342-242-556
+Unit kerja : SRW 07
+user login : muhammad.Karista
+
+4. Nama : Muh. Supriadi
+Email : Muh.supriadi@bni.co.id
+No Hp : 085255450866
+Unit kerja : SRW 07
+user login : muh.supriadi
+
+Nama : emier rusli
+Email : emier.rusli@bni.co.id
+No HP : 081355095945
+Unit Kerja : SRW
+user login : emier.rusli
+
+Nama: Andi Ira tenrikawa
+Email: Andi.tenrikawa@bni.co.id
+No hp: 082190190169
+Unit Kerja : SRW
+user login : andi.tenrikawa
+
+SCHEDULED
+
+260123
+Pagi mas Diki, terlampir tiket file doc yg gagal di buka
+
+Y0000000789
+Y0000000578
+Y0000000882
+Y0000000651
+Y0000001296
+Y0000004241
+
+data detail (semua)
+datadetail - detailsendback
+memberbank info
+
+exel 
+
+tarik bank bni non lhf pending approval
