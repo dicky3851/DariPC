@@ -1,6 +1,0 @@
-(E) AP :041504521930:prddbs02202305050415030011089300:10893 [BMC02V501U     :bmc02v501u.c   :main_proc                          : 5509] [ERROR] ========================TRAILER ROW_CNT TIDAK SESUAI DENGAN JUMLAH DATA=================
-(E) AP :041504522670:prddbs02202305050415030011089300:10893 [BMC02V501U     :bmc02v501u.c   :main_proc                          : 5512] [ERROR] ========================TRAILER ROW_CNT[3] JUMLAH DATA[2]=================
-(E) DLC:041504522837:prddbs02202305050415030011089300:10893 [BMC02V501U     :LcfGeneralBatch.c:LcfGeneralBatchFlowCall            :  349] Lib Name [LcfBatch] Func Name [LcfBatchMainProcess] Processing failure error returned. 
-(E) AP :155617757971:prddbs02202305051556170012820300:28203 [BMC02V501U     :bmc02v501u.c   :main_proc                          : 5509] [ERROR] ========================TRAILER ROW_CNT TIDAK SESUAI DENGAN JUMLAH DATA=================
-(E) AP :155617765469:prddbs02202305051556170012820300:28203 [BMC02V501U     :bmc02v501u.c   :main_proc                          : 5512] [ERROR] ========================TRAILER ROW_CNT[3] JUMLAH DATA[2]=================
-(E) DLC:155617765636:prddbs02202305051556170012820300:28203 [BMC02V501U     :LcfGeneralBatch.c:LcfGeneralBatchFlowCall            :  349] Lib Name [LcfBatch] Func Name [LcfBatchMainProcess] Processing failure error returned. 
