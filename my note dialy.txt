@@ -818,6 +818,8 @@ pak bayu SQ
 
 lembur tanggal 6 , jam 7 sampe jam 00.00
 lembur tanggal 7 , jam 5 sampe jam 00.00
+18 jul jam 5 sampe jam 00.00
+tanggal 22 jam 8 pagi sampe jam 5 sore NON LHF
 
 datanya di ambil untuk tiket yang mana berdasar sys merch, lalu di ambil untuk tabel mdr ..  di isi valuenya terus upload lagi
 kalo mau di seting dari kodingan lumayan panjang effort nya dan impact nya bisa ga kebentuk lagi kaya yang pernah kejadian sebelumnya
@@ -859,3 +861,27 @@ omnity present jam 2 sampe 4
 berikut terlampir file untuk CR, mohon agar segera di kirimkan penawaran harganya 
 001999270391
 10462227
+
+di clearkan dengan data yang baru di DGO karlstaine.baginda, take out yang ga di pake
+bugs bucket import
+di tambahin SLA di tiketnya yang masuk ke dgo dan rto
+data baru di urutkan di paling atas
+bikin report narik jumlah yang sudah di proses bni report yang udha di admin/dgo
+
+Short Desc. :
+
+Business Environment
+Description :
+
+Jika pilihan Business Environment : 99-LAINNYA (BE) dan 05-E-COMMERCE (BE)
+maka Detail Business Environment Boleh kosong jika Jika pilihan Business Environment yang 
+BUKAN : 99-LAINNYA (BE) dan 05-E-COMMERCE (BE) maka Detail Business Environment WAJIB di isi
+
+lembur tanggal 6 , jam 7 sampe jam 00.00
+lembur tanggal 7 , jam 5 sampe jam 00.00
+18 jul jam 5 sampe jam 00.00
+tanggal 22 jam 8 pagi sampe jam 5 sore NON LHF
+Tanggal 27 jam 5 sampe jam 00.00 NON LHF
+
+QR|Y0000062822|01|01||||||20230522|29991231|
+Y0000001874
